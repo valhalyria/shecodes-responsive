@@ -38,6 +38,11 @@
     margin-top: 40px;
     justify-content: center;
   }
+
+  .app-title {
+      text-align: left;
+      margin-bottom: 10px;
+  }
   
   .app-links {
     display: flex;
@@ -94,4 +99,39 @@
   .contact {
     margin-top: 50px;
   }
-  
+
+  @media(max-width: 577px) {
+
+      body{
+          margin-top: 70px;
+      }
+      h1 {
+          font-size: 48px;
+      }
+      h2{
+          font-size: 32px;
+          line-height: 1.2;
+      }
+      p{
+          text-align: center;
+      }
+
+      .app-title {
+          text-align: center;
+          margin: 20px 0px;
+      }
+
+      .app-links {
+          text-align: center;
+          display: block;
+          margin: 40px;
+      }
+
+      .app-links a{
+          display: block;
+      }
+
+      .email-link{
+          margin-bottom: 20px;
+      }
+  }
